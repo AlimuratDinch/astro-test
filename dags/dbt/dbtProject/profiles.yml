@@ -1,0 +1,12 @@
+dbtProject:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 17 for SQL Server' # (The ODBC Driver installed on your system)
+      server: DESKTOP-20LHG11\SQLEXPRESS
+      port: 1433
+      database: DBT
+      schema: dbo
+      user: dbt
+      password: dbt
